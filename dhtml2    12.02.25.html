@@ -1,0 +1,19 @@
+<style>
+    div {margin-top:10px;}
+</style>
+<script>
+    function square(){
+        var n=document.getElementById("num").value;
+        var r=n*n;
+        document.getElementById("result").value=r;
+    }
+</script>
+<div>
+<input type="number" id="num" placeholder="Enter a number">
+</div>
+<div>
+<input type="number" id="result" placeholder="Result will be shown here" readonly>
+</div>
+<div>
+<input type="button" value="Show Square" onClick="square()">
+</div>

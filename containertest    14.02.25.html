@@ -1,0 +1,11 @@
+<script>
+function square(){
+    var n=document.getElementById("num").value;
+    var result=n*n;
+    document.getElementById("result").innerHTML ="The square of <b style='color:red'>"+n+"</b> is <b style='color:red'>"+result+"</b>";
+}
+</script>
+Enter a number : <input type="number" id="num"><br>
+<input type="button" onclick="square()" value="Square">
+<div id="result"></div>
+
